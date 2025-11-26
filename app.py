@@ -3,6 +3,11 @@ import streamlit as st
 import pandas as pd
 import pickle # Changed from joblib to pickle
 
+st.markdown("""
+    <h2 style='text-align: center; color: #4CAF50;'>Hasil Prediksi Biaya Asuransi</h2>
+""", unsafe_allow_html=True)
+
+
 # Load the trained model
 with open('GBR_regression_model.pkl', 'rb') as file:
     model = pickle.load(file)
