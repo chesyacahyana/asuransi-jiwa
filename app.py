@@ -4,10 +4,6 @@ import pandas as pd
 import pickle # Changed from joblib to pickle
 
 st.markdown("""
-    <h2 style='text-align: center; color: #4CAF50;'>Hasil Prediksi Biaya Asuransi</h2>
-""", unsafe_allow_html=True)
-
-st.markdown("""
 <style>
     .main {
         background-color: #fafafa;
