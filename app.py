@@ -7,6 +7,18 @@ st.markdown("""
     <h2 style='text-align: center; color: #4CAF50;'>Hasil Prediksi Biaya Asuransi</h2>
 """, unsafe_allow_html=True)
 
+st.markdown("""
+<style>
+    .main {
+        background-color: #fafafa;
+    }
+    .sidebar .sidebar-content {
+        background-color: #eef2f3;
+    }
+</style>
+""", unsafe_allow_html=True)
+
+
 
 # Load the trained model
 with open('GBR_regression_model.pkl', 'rb') as file:
